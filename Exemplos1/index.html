@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <title>Minha Página</title>
+        <meta charset="utf-8">
+        <script type="text/javascript" src="js/main.js"></script>
+    </head>
+    <body onload="load()">
+       
+       <button id="botao" onclick="redirecionar(this)">Clique aqui!</button>
+       <p id="mousemove" onmousemove="trocar(this)" onmouseout="voltar(this)">Passe o mouse aqui</p>
+       <select onchange="funcaoChange(this)">
+           <option value="1">Gato</option>
+           <option value="2">Cachorro</option>
+           <option value="3">Cacto</option>
+       </select>
+    </body>
+</html>
